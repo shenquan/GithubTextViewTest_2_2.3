@@ -45,6 +45,12 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/hello"/>
+        android:text="@string/hello"
+        android:password="true"/>
+    <CheckedTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="可勾选的文本"
+        android:checkMark="@drawable/ok"/>
 
 </LinearLayout>
